@@ -1,0 +1,7 @@
+class,n_patient_evaluations_5seeds,correct,recall,recall_ci_low,recall_ci_high,precision,predicted_as_I,predicted_as_II,predicted_as_III,predicted_as_IV,predicted_as_V,predicted_as_VI
+I,130,74,0.5692,0.4795,0.6557,0.4229,74,27,9,8,4,8
+II,170,73,0.4294,0.3539,0.5074,0.5448,39,73,28,6,8,16
+III,60,12,0.2,0.1078,0.3233,0.1846,19,23,12,3,2,1
+IV,50,2,0.04,0.0049,0.1371,0.0455,20,1,6,2,10,11
+V,65,7,0.1077,0.0444,0.2094,0.1795,9,3,4,14,7,28
+VI,165,119,0.7212,0.6462,0.7881,0.6503,14,7,6,11,8,119

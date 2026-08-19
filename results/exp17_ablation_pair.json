@@ -1,0 +1,231 @@
+{
+ "arms": [
+  "roi_maskbbox",
+  "center_crop",
+  "bg_tibia_erased",
+  "tib_tibia_only"
+ ],
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "note": "tib and bg are exact complements sharing a field of view; roi and center differ in field of view and are reported for reference only.",
+ "sixclass_bacc": {
+  "roi_maskbbox": {
+   "mean": 0.3446,
+   "sd": 0.0302,
+   "per_seed": [
+    0.3071,
+    0.351,
+    0.39,
+    0.3425,
+    0.3323
+   ]
+  },
+  "center_crop": {
+   "mean": 0.2598,
+   "sd": 0.0313,
+   "per_seed": [
+    0.2431,
+    0.2672,
+    0.3103,
+    0.2298,
+    0.2485
+   ]
+  },
+  "bg_tibia_erased": {
+   "mean": 0.2569,
+   "sd": 0.025,
+   "per_seed": [
+    0.2345,
+    0.2459,
+    0.2991,
+    0.2577,
+    0.2471
+   ]
+  },
+  "tib_tibia_only": {
+   "mean": 0.3675,
+   "sd": 0.0119,
+   "per_seed": [
+    0.3674,
+    0.3512,
+    0.3842,
+    0.3646,
+    0.37
+   ]
+  }
+ },
+ "pair": {
+  "erased_to_only": {
+   "from": 0.2569,
+   "to": 0.3675,
+   "diff": 0.1106,
+   "ci": [
+    0.0879,
+    0.1333
+   ],
+   "t": 13.52,
+   "p": 0.0002
+  },
+  "roi_to_only": {
+   "from": 0.3446,
+   "to": 0.3675,
+   "diff": 0.0229,
+   "ci": [
+    -0.0109,
+    0.0566
+   ],
+   "t": 1.883,
+   "p": 0.1328
+  }
+ },
+ "per_class": {
+  "I": {
+   "n": 130,
+   "roi_maskbbox": {
+    "k": 74,
+    "recall": 0.5692
+   },
+   "center_crop": {
+    "k": 58,
+    "recall": 0.4462
+   },
+   "bg_tibia_erased": {
+    "k": 56,
+    "recall": 0.4308
+   },
+   "tib_tibia_only": {
+    "k": 66,
+    "recall": 0.5077
+   }
+  },
+  "II": {
+   "n": 170,
+   "roi_maskbbox": {
+    "k": 73,
+    "recall": 0.4294
+   },
+   "center_crop": {
+    "k": 66,
+    "recall": 0.3882
+   },
+   "bg_tibia_erased": {
+    "k": 56,
+    "recall": 0.3294
+   },
+   "tib_tibia_only": {
+    "k": 85,
+    "recall": 0.5
+   }
+  },
+  "III": {
+   "n": 60,
+   "roi_maskbbox": {
+    "k": 12,
+    "recall": 0.2
+   },
+   "center_crop": {
+    "k": 6,
+    "recall": 0.1
+   },
+   "bg_tibia_erased": {
+    "k": 10,
+    "recall": 0.1667
+   },
+   "tib_tibia_only": {
+    "k": 7,
+    "recall": 0.1167
+   }
+  },
+  "IV": {
+   "n": 50,
+   "roi_maskbbox": {
+    "k": 2,
+    "recall": 0.04
+   },
+   "center_crop": {
+    "k": 1,
+    "recall": 0.02
+   },
+   "bg_tibia_erased": {
+    "k": 1,
+    "recall": 0.02
+   },
+   "tib_tibia_only": {
+    "k": 4,
+    "recall": 0.08
+   }
+  },
+  "V": {
+   "n": 65,
+   "roi_maskbbox": {
+    "k": 7,
+    "recall": 0.1077
+   },
+   "center_crop": {
+    "k": 5,
+    "recall": 0.0769
+   },
+   "bg_tibia_erased": {
+    "k": 2,
+    "recall": 0.0308
+   },
+   "tib_tibia_only": {
+    "k": 15,
+    "recall": 0.2308
+   }
+  },
+  "VI": {
+   "n": 165,
+   "roi_maskbbox": {
+    "k": 119,
+    "recall": 0.7212
+   },
+   "center_crop": {
+    "k": 87,
+    "recall": 0.5273
+   },
+   "bg_tibia_erased": {
+    "k": 93,
+    "recall": 0.5636
+   },
+   "tib_tibia_only": {
+    "k": 127,
+    "recall": 0.7697
+   }
+  }
+ },
+ "vi_vs_rest": {
+  "roi_maskbbox": {
+   "mean": 0.7932,
+   "sd": 0.0214
+  },
+  "center_crop": {
+   "mean": 0.6542,
+   "sd": 0.0343
+  },
+  "bg_tibia_erased": {
+   "mean": 0.685,
+   "sd": 0.0366
+  },
+  "tib_tibia_only": {
+   "mean": 0.8375,
+   "sd": 0.0361
+  }
+ },
+ "vi_vs_rest_pair": {
+  "from": 0.685,
+  "to": 0.8375,
+  "diff": 0.1525,
+  "ci": [
+   0.1183,
+   0.1867
+  ],
+  "t": 12.389,
+  "p": 0.0002
+ }
+}

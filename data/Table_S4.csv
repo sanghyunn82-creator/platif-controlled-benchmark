@@ -1,0 +1,76 @@
+task,feature_set,model,pre_specified_primary_comparator,seed,balanced_accuracy
+Binary: NTPF vs fracture,non-imaging metadata,logistic regression,True,0,0.8199
+Binary: NTPF vs fracture,non-imaging metadata,logistic regression,True,1,0.8207
+Binary: NTPF vs fracture,non-imaging metadata,logistic regression,True,2,0.7862
+Binary: NTPF vs fracture,non-imaging metadata,logistic regression,True,3,0.8199
+Binary: NTPF vs fracture,non-imaging metadata,logistic regression,True,4,0.8246
+Binary: NTPF vs fracture,non-imaging metadata,random forest,False,0,0.802
+Binary: NTPF vs fracture,non-imaging metadata,random forest,False,1,0.7965
+Binary: NTPF vs fracture,non-imaging metadata,random forest,False,2,0.8215
+Binary: NTPF vs fracture,non-imaging metadata,random forest,False,3,0.8137
+Binary: NTPF vs fracture,non-imaging metadata,random forest,False,4,0.809
+Binary: NTPF vs fracture,mask geometry,logistic regression,False,0,0.5657
+Binary: NTPF vs fracture,mask geometry,logistic regression,False,1,0.5296
+Binary: NTPF vs fracture,mask geometry,logistic regression,False,2,0.5641
+Binary: NTPF vs fracture,mask geometry,logistic regression,False,3,0.5727
+Binary: NTPF vs fracture,mask geometry,logistic regression,False,4,0.5876
+Binary: NTPF vs fracture,mask geometry,random forest,False,0,0.5851
+Binary: NTPF vs fracture,mask geometry,random forest,False,1,0.6517
+Binary: NTPF vs fracture,mask geometry,random forest,False,2,0.6266
+Binary: NTPF vs fracture,mask geometry,random forest,False,3,0.6188
+Binary: NTPF vs fracture,mask geometry,random forest,False,4,0.5718
+Binary: NTPF vs fracture,both,logistic regression,False,0,0.8082
+Binary: NTPF vs fracture,both,logistic regression,False,1,0.7839
+Binary: NTPF vs fracture,both,logistic regression,False,2,0.7745
+Binary: NTPF vs fracture,both,logistic regression,False,3,0.8254
+Binary: NTPF vs fracture,both,logistic regression,False,4,0.8082
+Binary: NTPF vs fracture,both,random forest,False,0,0.7761
+Binary: NTPF vs fracture,both,random forest,False,1,0.7831
+Binary: NTPF vs fracture,both,random forest,False,2,0.7706
+Binary: NTPF vs fracture,both,random forest,False,3,0.7926
+Binary: NTPF vs fracture,both,random forest,False,4,0.8176
+Six-class (fracture patients),non-imaging metadata,logistic regression,True,0,0.2047
+Six-class (fracture patients),non-imaging metadata,logistic regression,True,1,0.2057
+Six-class (fracture patients),non-imaging metadata,logistic regression,True,2,0.1329
+Six-class (fracture patients),non-imaging metadata,logistic regression,True,3,0.1155
+Six-class (fracture patients),non-imaging metadata,logistic regression,True,4,0.1635
+Six-class (fracture patients),non-imaging metadata,random forest,False,0,0.1081
+Six-class (fracture patients),non-imaging metadata,random forest,False,1,0.1152
+Six-class (fracture patients),non-imaging metadata,random forest,False,2,0.1278
+Six-class (fracture patients),non-imaging metadata,random forest,False,3,0.1215
+Six-class (fracture patients),non-imaging metadata,random forest,False,4,0.0596
+Six-class (fracture patients),mask geometry,logistic regression,False,0,0.0911
+Six-class (fracture patients),mask geometry,logistic regression,False,1,0.1444
+Six-class (fracture patients),mask geometry,logistic regression,False,2,0.1243
+Six-class (fracture patients),mask geometry,logistic regression,False,3,0.1234
+Six-class (fracture patients),mask geometry,logistic regression,False,4,0.137
+Six-class (fracture patients),mask geometry,random forest,False,0,0.1395
+Six-class (fracture patients),mask geometry,random forest,False,1,0.1187
+Six-class (fracture patients),mask geometry,random forest,False,2,0.1351
+Six-class (fracture patients),mask geometry,random forest,False,3,0.1311
+Six-class (fracture patients),mask geometry,random forest,False,4,0.1526
+Six-class (fracture patients),both,logistic regression,False,0,0.1566
+Six-class (fracture patients),both,logistic regression,False,1,0.238
+Six-class (fracture patients),both,logistic regression,False,2,0.1337
+Six-class (fracture patients),both,logistic regression,False,3,0.1297
+Six-class (fracture patients),both,logistic regression,False,4,0.1377
+Six-class (fracture patients),both,random forest,False,0,0.1373
+Six-class (fracture patients),both,random forest,False,1,0.0935
+Six-class (fracture patients),both,random forest,False,2,0.1245
+Six-class (fracture patients),both,random forest,False,3,0.1428
+Six-class (fracture patients),both,random forest,False,4,0.1267
+Six-class (fracture patients),annotator mask silhouette 48x48 (no radiograph pixels),logistic regression,False,0,0.1581
+Six-class (fracture patients),annotator mask silhouette 48x48 (no radiograph pixels),logistic regression,False,1,0.19
+Six-class (fracture patients),annotator mask silhouette 48x48 (no radiograph pixels),logistic regression,False,2,0.155
+Six-class (fracture patients),annotator mask silhouette 48x48 (no radiograph pixels),logistic regression,False,3,0.1388
+Six-class (fracture patients),annotator mask silhouette 48x48 (no radiograph pixels),logistic regression,False,4,0.1556
+Six-class (fracture patients),annotator mask silhouette 16x16 (no radiograph pixels),logistic regression,False,0,0.1828
+Six-class (fracture patients),annotator mask silhouette 16x16 (no radiograph pixels),logistic regression,False,1,0.2664
+Six-class (fracture patients),annotator mask silhouette 16x16 (no radiograph pixels),logistic regression,False,2,0.2192
+Six-class (fracture patients),annotator mask silhouette 16x16 (no radiograph pixels),logistic regression,False,3,0.2153
+Six-class (fracture patients),annotator mask silhouette 16x16 (no radiograph pixels),logistic regression,False,4,0.1836
+Six-class (fracture patients),"annotator mask silhouette 16x16, labels permuted",logistic regression,False,0,0.1803
+Six-class (fracture patients),"annotator mask silhouette 16x16, labels permuted",logistic regression,False,1,0.1679
+Six-class (fracture patients),"annotator mask silhouette 16x16, labels permuted",logistic regression,False,2,0.1381
+Six-class (fracture patients),"annotator mask silhouette 16x16, labels permuted",logistic regression,False,3,0.1363
+Six-class (fracture patients),"annotator mask silhouette 16x16, labels permuted",logistic regression,False,4,0.098

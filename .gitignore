@@ -1,0 +1,13 @@
+# exFAT sidecar files
+._*
+.DS_Store
+# source images are not redistributed (download them from Zenodo)
+*.mat
+prep/
+prep2/
+data/platif/
+# large intermediates
+*.npy
+*.npz
+__pycache__/
+*.pyc

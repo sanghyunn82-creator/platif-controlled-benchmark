@@ -1,0 +1,18 @@
+Characteristic,Value
+Patients,186
+Radiographs,421
+"Images per patient, median (range)",2 (1–8)
+"Age, years, mean ± SD (range)",43.60 ± 17.85 (15–88)
+  reported in the data descriptor,45.88 ± 17.54 (n = 186)
+"Sex, male / female",149 / 37
+"Fractured side, R / L / bilateral",96 / 87 / 3
+Coronal CT available,150 / 186 (80.6%)
+Schatzker I / II / III / IV / V / VI,27 / 34 / 12 / 11 / 12 / 32
+  image-level labels used for modelling,26 / 34 / 12 / 10 / 13 / 33
+NTPF (no Schatzker-classifiable fracture),58
+"Image height, px, range",1467–4892
+"Image width, px, range",920–4892
+"Aspect ratio (h/w), range",0.75–3.07
+Images extending beyond the knee (height > 4000 px or width > 3000 px),51 / 421
+Label conflicts (.mat vs metadata),4 patients
+Images with an unusable mask,2 / 421

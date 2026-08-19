@@ -1,0 +1,13 @@
+finding,patient_id,detail,action_taken
+label conflict (.mat vs metadata spreadsheet),230.0,image labels I vs metadata IV,image-level .mat label used; both reported
+label conflict (.mat vs metadata spreadsheet),235.0,image labels VI vs metadata I,image-level .mat label used; both reported
+label conflict (.mat vs metadata spreadsheet),238.0,image labels IV vs metadata I,image-level .mat label used; both reported
+label conflict (.mat vs metadata spreadsheet),246.0,image labels V vs metadata IV,image-level .mat label used; both reported
+labels differ between images of one patient (bilateral acquisition),92.0,labels I|NTPF,image-level labels used; NTPF images excluded from the six-class task
+labels differ between images of one patient (bilateral acquisition),112.0,labels NTPF|V,image-level labels used; NTPF images excluded from the six-class task
+labels differ between images of one patient (bilateral acquisition),133.0,labels NTPF|VI,image-level labels used; NTPF images excluded from the six-class task
+labels differ between images of one patient (bilateral acquisition),147.0,labels II|NTPF,image-level labels used; NTPF images excluded from the six-class task
+segmentation mask dimensions differ from the radiograph,47.0,"047_im1: image 2517x1356, mask not applicable","excluded from mask-dependent inputs (ROI, background)"
+segmentation mask dimensions differ from the radiograph,81.0,"081_im1: image 2819x1290, mask not applicable","excluded from mask-dependent inputs (ROI, background)"
+coronal CT documented inconsistently between descriptor and deposit,,data descriptor lists a coronal CT for every image; the deposit marks the field optional; 150/186 present,reported
+reported cohort age not reproducible from the released metadata,,descriptor 45.88 +/- 17.54 (n=186); recomputed 43.60 +/- 17.85; sex counts and class percentages match exactly,reported
